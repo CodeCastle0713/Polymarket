@@ -1,0 +1,62 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js build output
+apps/docs/.next/
+apps/create-guider/.
+apps/docs/.
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# PWA files
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# IDE-specific files
+.idea
+.vscode
+/apps/create-guider
+/apps/docs/node_modules
+/examples/guider/kitchen-sink/.next
+/examples/guider/kitchen-sink/node_modules
+/examples/guider/polymarket/.next
+/packages/eslint-config
+/packages/guider/node_modules
+/packages/config
+/packages/guider/dist
+/packages/router/node_modules
+*.log
+/examples/guider/polymarket/node_modules
+/examples/guider/minimal/.next
+/examples/guider/minimal/node_modules
